@@ -15,7 +15,7 @@ async function fetchEstates() {
   }
 }
 
-async function onSearchInput() {
+function onSearchInput() {
   filterApplied.value = null
   fetchEstates()
 }
